@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0de77c-76af-4ea5-ae21-f407c6529f01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="5726" column="19" lean-forward="false" selection-start-line="5726" selection-start-column="19" selection-end-line="5726" selection-end-column="19" />
+            <state relative-caret-position="402">
+              <caret line="5899" column="24" lean-forward="false" selection-start-line="5899" selection-start-column="24" selection-end-line="5899" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -79,6 +78,7 @@
       <find>border-radius</find>
       <find>#logo</find>
       <find>.obtn</find>
+      <find>400</find>
     </findStrings>
     <replaceStrings>
       <replace>4px</replace>
@@ -179,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509204518049</updated>
-      <workItem from="1509204524874" duration="6557000" />
+      <workItem from="1509204524874" duration="6965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6557000" />
+    <option name="totallyTimeSpent" value="6965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -307,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="5726" column="19" lean-forward="false" selection-start-line="5726" selection-start-column="19" selection-end-line="5726" selection-end-column="19" />
+        <state relative-caret-position="402">
+          <caret line="5899" column="24" lean-forward="false" selection-start-line="5899" selection-start-column="24" selection-end-line="5899" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -5725,6 +5725,9 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	.header_menu_res .obtn {
 		float:none;
 		width:100%;
+		display: block;
+		overflow: auto;
+		padding: 8px 10px;
 	}
 	#menu-header {
 		display: none;
@@ -5894,7 +5897,7 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 		width: 240px;
 	}
 	.header_menu_res .obtn {
-		padding: 4px 10px;
+		padding: 8px 4px;
 	}
 	#directory .catcol ul li.cat-item ul,
 	.paging .pages span.total,
