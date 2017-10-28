@@ -373,7 +373,22 @@ p.red {
 .btn_orange {
 	text-transform: uppercase;
 }
-
+/*
+override btn css
+ */
+.btn_orange {
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	border-style: solid none;
+	border-radius: 4px;
+	background: linear-gradient(#db3727, #b22222) #b22222;
+	transition: 0.2s;
+	font-weight: 600;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+}
 a.btn_orange:hover {
 	text-decoration: none;
 }
@@ -546,6 +561,8 @@ a.btn_orange:hover {
 	float: right;
     font-size: 14px;
     padding: 10px 40px;
+	background: #449d44 !important;
+	display: inline-block;
 }
 /* content sidebar */
 
@@ -747,7 +764,7 @@ p.edit a.reset-stats-link:before {
 	outline: none;
 	vertical-align: middle;
 	background: #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 	display: inline-block;
 	cursor: default;
 	margin-top: 1px;
@@ -903,7 +920,7 @@ p.edit a.reset-stats-link:before {
 .shadowblock {
 	padding: 15px;
 	background: #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 	-webkit-box-shadow: 0 2px 0 0 #E3E4E7;
 	        box-shadow: 0 2px 0 0 #E3E4E7;
 }
@@ -913,7 +930,7 @@ p.edit a.reset-stats-link:before {
 .paging,
 .sidebar-block {
 	background: #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 	-webkit-box-shadow: 0 2px 0 0 #E3E4E7;
 	        box-shadow: 0 2px 0 0 #E3E4E7;
 }
@@ -1034,7 +1051,7 @@ p.edit a.reset-stats-link:before {
 	padding: 8px;
 	background: #FFF;
 	border: 1px solid #BBB;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .content_res h2.colour_top {
@@ -1222,7 +1239,7 @@ p.edit a.reset-stats-link:before {
 	border: 1px solid #EEE;
 	border-top: none;
 	z-index: 998;
-	border-radius: 0 6px 6px 6px;
+	border-radius: 0 4px 4px 4px;
 	-webkit-box-shadow: 1px 1px 5px #B7B7B7;
 	        box-shadow: 1px 1px 5px #B7B7B7;
 }
@@ -1232,7 +1249,7 @@ p.edit a.reset-stats-link:before {
 	border: 1px solid #EEE;
 	border-top: none;
 	z-index: 998;
-	border-radius: 6px;
+	border-radius: 4px;
 	-webkit-box-shadow: 1px 1px 5px #B7B7B7;
 	        box-shadow: 1px 1px 5px #B7B7B7;
 }
@@ -1326,7 +1343,7 @@ div#adv_categories,
 	border: 1px solid #EEE;
 	border-top: none;
 	z-index: 998;
-	border-radius: 0 6px 6px 6px;
+	border-radius: 0 4px 4px 4px;
 }
 
 div#adv_categories {
@@ -1494,7 +1511,7 @@ div#adv_categories .first {
 
 .searchblock_out {
 	margin: 0;
-	border-radius: 0 0 6px 6px;
+	border-radius: 0 0 4px 4px;
 }
 
 .searchblock {
@@ -1502,7 +1519,7 @@ div#adv_categories .first {
 	background-color: #FFF;
 	padding: 15px;
 	min-height: 40px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .top-search-advanced {
@@ -1532,7 +1549,7 @@ div#adv_categories .first {
 	padding: 7px;
 	font-size: 14px;
 	color: #666;
-	border-radius: 6px;
+	border-radius: 4px;
 	line-height: 33px;
 }
 
@@ -1547,7 +1564,7 @@ select#scat.searchbar option.level-0 {
 	color: #666;
 	margin-bottom: 0;
 	position: relative;
-	border-radius: 6px;
+	border-radius: 4px;
 	background-color: #FFF;
 	z-index: 2;
     outline: none;
@@ -1563,7 +1580,7 @@ select#scat.searchbar option.level-0 {
 	color: #4F4F4F;
 	padding: 11px;
 	background: url('images/editbox_bg.gif') repeat-x scroll center top #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 #searchform .searchfield {
@@ -1605,7 +1622,7 @@ select#scat.searchbar option.level-0 {
 	font-size: 14px;
 	color: #666;
 	width: 94.5%;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form_search .search {
@@ -1624,7 +1641,7 @@ select#scat.searchbar option.level-0 {
 	min-height: 15px;
 	width: 307px;
 	padding: 7px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 /* search autocomplete loader */
 
@@ -1651,7 +1668,7 @@ ul.ui-autocomplete,
 	cursor: pointer;
 	text-decoration: none;
 	border: none;
-	border-radius: 6px;
+	border-radius: 4px;
 	margin: 0 0 0 10px;
 }
 
@@ -1929,14 +1946,14 @@ span.feat_left img.preview {
 
 .post-block-out {
 	margin: 0 0 8px 0;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .post-block {
 	background-color: #FFF;
 	margin: 0;
 	padding: 20px 15px 15px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .post-left {
@@ -2073,7 +2090,7 @@ span.tag-head {
 	font-size: 11px;
 	margin-left: 20px;
 	padding: 0 10px 0 12px;
-	background: #F8ECB8;
+	background: #db3727 !important;
 	color: #FFF;
 	text-decoration: none;
 	border-bottom-right-radius: 4px;
@@ -2088,7 +2105,7 @@ span.tag-head {
 	left: -12px;
 	width: 0;
 	height: 0;
-	border-color: transparent #F8ECB8 transparent transparent;
+	border-color: transparent #db3727 transparent transparent !important;
 	border-style: solid;
 	border-width: 12px 12px 12px 0;
 }
@@ -2202,7 +2219,7 @@ span.dashicons-before.clock:before {
 /* pagination */
 
 .paging {
-	border-radius: 6px;
+	border-radius: 4px;
 	background: none repeat scroll 0 0 #FFF;
 	margin: 0 0 4px;
 	padding: 8px;
@@ -2232,20 +2249,20 @@ span.dashicons-before.clock:before {
 	background: none;
 	padding: 0;
 	margin: 0 2px 4px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .pages span.current {
 	color: #CCC;
 	font-weight: bold;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .pages span.nextPage {
 	background: none;
 	padding: 0;
 	margin: 0 2px 4px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .pages a {
@@ -2256,7 +2273,7 @@ span.dashicons-before.clock:before {
 	color: #4F4F4F;
 	text-decoration: none;
 	background: #EDEDED;
-	border-radius: 6px;
+	border-radius: 4px;
 	text-decoration: none;
 }
 
@@ -2303,7 +2320,7 @@ span.dashicons-before.clock:before {
 	padding: 0;
 	float: left;
 	border-bottom: none;
-	border-radius: 6px 6px 0 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .tabcontrol ul.tabnavig li a {
@@ -2316,7 +2333,7 @@ span.dashicons-before.clock:before {
 	background-color: #FFF;
 	border: 1px solid #FFF;
 	border-bottom: none;
-	border-radius: 6px 6px 0 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .tabcontrol ul.tabnavig li a:hover {
@@ -2332,7 +2349,7 @@ span.dashicons-before.clock:before {
 	margin: -1px 0 8px;
 	padding: 20px 16px;
 	background: #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .tabcontrol div.undertab a {
@@ -2375,7 +2392,7 @@ span.dashicons-before.clock:before {
 	float: left;
 	font-size: 13px;
 	border-bottom: none;
-	border-radius: 6px 6px 0 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .tabprice ul.tabnavig li a {
@@ -2386,7 +2403,7 @@ span.dashicons-before.clock:before {
 	color: #868686;
 	text-decoration: none;
 	background-color: #FFF;
-	border-radius: 6px 6px 0 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .tabprice ul.tabnavig li a:hover {
@@ -2406,21 +2423,21 @@ span.dashicons-before.clock:before {
 	padding: 10px 16px;
 	background: #FFF;
 	min-height: 255px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .tabprice div.singletab {
 	margin: -2px 0 4px 0;
 	padding: 7px;
 	background: #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .tabprice div.postertab {
 	margin: -2px 0 4px 0;
 	padding: 5px 15px 15px;
 	background: #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .custom-text-area {
@@ -2454,7 +2471,7 @@ span.dashicons-before.clock:before {
 
 .even:hover {
 	background-color: #F4F4F4 !important;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .meta {
@@ -2551,7 +2568,7 @@ span.dashicons-before.clock:before {
 	float: left;
 	font-size: 13px;
 	border-bottom: none;
-	border-radius: 6px 6px 0 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .tab-dashboard ul.tabnavig li a {
@@ -2562,7 +2579,7 @@ span.dashicons-before.clock:before {
 	color: #868686;
 	text-decoration: none;
 	background-color: #FFF;
-	border-radius: 6px 6px 0 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .tab-dashboard ul.tabnavig li a.selected {
@@ -2679,7 +2696,7 @@ div#checksave {
 	margin-bottom: 10px;
 	padding: 7px;
 	width: 250px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .mid:focus,
@@ -2793,7 +2810,7 @@ ul.errors li {
 	padding: 15px;
 	margin-bottom: 20px;
 	color: #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .notice.success,
@@ -2929,7 +2946,7 @@ p.suggest {
 	padding: 7px;
 	font-size: 15px;
 	color: #666;
-	border-radius: 6px;
+	border-radius: 4px;
 	line-height: 33px;
 	background: none;
 }
@@ -3173,7 +3190,7 @@ a.moretag {
 	width: 470px;
 	color: #4F4F4F;
 	border: 1px solid #DBDBDB;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form_edit input.text {
@@ -3189,7 +3206,7 @@ a.moretag {
 	color: #4F4F4F;
 	margin-bottom: 10px;
 	border: 1px solid #DBDBDB;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form_step textarea.wp-editor-area,
@@ -3318,7 +3335,7 @@ a.moretag {
 	width: 316px;
 	height: 33px;
 	min-height: 15px;
-	border-radius: 6px;
+	border-radius: 4px;
 	padding: 8px 7px;
 	margin-bottom: 8px;
 }
@@ -3474,7 +3491,7 @@ div#tagcloud a {
 	padding: 3px 6px;
 	display: inline-table;
 	margin: 0 0 5px 0;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 div#tagcloud a:hover {
@@ -3768,7 +3785,7 @@ p.message {
 select#display_name {
 	line-height: 1em;
 	min-width: 265px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .field-hint {
@@ -3793,7 +3810,7 @@ select#display_name {
 .form-table input.regular-text {
 	padding: 7px;
 	width: 250px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form-table .regular-dropdown,
@@ -3801,7 +3818,7 @@ select#display_name {
 	border: 1px solid #CCC;
 	padding: 7px;
 	width: 250px;
-	border-radius: 6px;
+	border-radius: 4px;
 	height: 33px;
 	font-size: 12px;
 }
@@ -3813,7 +3830,7 @@ select#display_name {
 .form-table textarea {
 	padding: 7px;
 	width: 90%;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form-table input:focus,
@@ -3894,7 +3911,7 @@ span.description {
 	padding: 7px;
 	text-align: center;
 	width: 248px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 #pass-strength-result.good {
@@ -4032,7 +4049,7 @@ ul.user-info li:hover {
 	overflow: auto;
 	padding: 8px;
 	width: 570px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .content_res .license p {
@@ -4045,7 +4062,7 @@ ul.user-info li:hover {
 	padding: 10px;
 	font: 12px/1.5em Arial, Helvetica, sans-serif;
 	max-width: 400px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .helpico {
@@ -4097,7 +4114,7 @@ ul.side-comments {
 	background-color: #FFF;
 	margin: -1px 0 4px;
 	padding: 10px 15px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 ul.pop-blog li {
@@ -4122,7 +4139,7 @@ ul.side-comments li .comment a:hover {
 
 .form_contact {
 	padding: 10px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form_contact ol {
@@ -4149,7 +4166,7 @@ ul.side-comments li .comment a:hover {
 	font-size: 13px;
 	width: 289px;
 	color: #4F4F4F;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form_contact textarea {
@@ -4159,7 +4176,7 @@ ul.side-comments li .comment a:hover {
 	height: 150px;
 	color: #4F4F4F;
 	border: 1px solid #DBDBDB;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .form_contact input:focus,
@@ -4245,7 +4262,7 @@ label.marker {
 	text-transform: uppercase;
 	background-color: #EFEFEF;
 	color: #AFAFAF;
-	border-radius: 6px;
+	border-radius: 4px;
 	clear: both;
 }
 
@@ -4278,7 +4295,7 @@ label.marker {
 	padding: 3px 6px;
 	display: inline-table;
 	margin: 0 0 5px 0;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .prdetails p.tags a:hover,
@@ -4481,7 +4498,7 @@ div#comments {
 	padding: 12px 12px 25px;
 	margin-bottom: 10px;
 	background: none;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 #comments ol.commentlist li.even {
@@ -4506,7 +4523,7 @@ div#comments {
 
 #comments ol.commentlist li.comment-author-admin {
 	background: #F6F6F6;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 #comments ol.commentlist img.avatar {
@@ -4667,7 +4684,7 @@ textarea#comment {
 	line-height: 1.2em;
 	padding: 7px;
 	width: 97.3%;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 textarea#comment:focus {
@@ -4708,7 +4725,7 @@ p.comments-box {
 	float: left;
 	padding: 7px;
 	width: 225px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .commentform label {
@@ -5113,7 +5130,7 @@ p.alt-text {
 .order-gateway input[type='text'],
 .form_step fieldset .form-field input[type='text'] {
 	border: 1px solid #DBDBDB;
-	border-radius: 6px 6px 6px 6px;
+	border-radius: 4px 4px 4px 4px;
 	color: #4F4F4F;
 	padding: 10px 7px;
 }
@@ -5222,7 +5239,7 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	background: #FFF;
 	margin: 0 0 20px 0;
 	border: 1px solid #FFF;
-	border-radius: 6px;
+	border-radius: 4px;
 	/* overflow:hidden; */
 }
 
@@ -5232,7 +5249,7 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	width: 300px;
 	color: #4F4F4F;
 	border: 1px solid #DBDBDB;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 #critic-review-wrap textarea {
@@ -5243,13 +5260,13 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	color: #4F4F4F;
 	margin-bottom: 10px;
 	border: 1px solid #DBDBDB;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 #critic-review-wrap .critic-review {
 	background-color: #F4F4F4;
 	padding: 10px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 #criticform label {
@@ -5263,7 +5280,7 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 #critic-review-wrap .critic-respond {
 	border: 2px solid #FFF;
 	padding: 10px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 /* CSS changes, not a part of responsive */
 
@@ -5406,7 +5423,8 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	/* header */
 
 	#logo {
-		width: 31.9148936%;
+		width: 100%;
+		float:none;
 		/* 300px / 960px */
 	}
 	.adblock {
@@ -5700,8 +5718,13 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 		padding: 7px;
 		font-size: 14px;
 		color: #666;
-		border-radius: 6px;
+		border-radius: 4px;
 		line-height: 33px;
+		width:100%;
+	}
+	.header_menu_res .obtn {
+		float:none;
+		width:100%;
 	}
 	#menu-header {
 		display: none;
