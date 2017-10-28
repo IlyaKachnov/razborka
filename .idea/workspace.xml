@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0de77c-76af-4ea5-ae21-f407c6529f01" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/header.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,42 +17,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/includes/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35726">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1509204059046" expanded="true" signature="16284:16336" ph="DELETE FROM " />
-                <marker date="1509204059046" expanded="true" signature="16692:16761" ph="SELECT lat, wp_cp_ad_geocodes" />
-                <marker date="1509204059046" expanded="true" signature="17449:17593" ph="SELECT meta_... wp_postmeta" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/includes/views.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="682" column="90" lean-forward="true" selection-start-line="682" selection-start-column="90" selection-end-line="682" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/includes/categories.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6872">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="730">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +27,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="5899" column="24" lean-forward="false" selection-start-line="5899" selection-start-column="24" selection-end-line="5899" selection-end-column="24" />
+            <state relative-caret-position="486">
+              <caret line="5697" column="24" lean-forward="false" selection-start-line="5697" selection-start-column="24" selection-end-line="5697" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -79,6 +46,9 @@
       <find>#logo</find>
       <find>.obtn</find>
       <find>400</find>
+      <find>960</find>
+      <find>min-width</find>
+      <find>.content_res img.attachment-ad-medium</find>
     </findStrings>
     <replaceStrings>
       <replace>4px</replace>
@@ -94,6 +64,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/classipress/framework/kernel/functions.php" />
+        <option value="$PROJECT_DIR$/public_html/wp-content/themes/classipress/header.php" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css" />
       </list>
     </option>
@@ -179,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509204518049</updated>
-      <workItem from="1509204524874" duration="6965000" />
+      <workItem from="1509204524874" duration="10703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6965000" />
+    <option name="totallyTimeSpent" value="10703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -231,28 +202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/framework/kernel/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="632" column="33" lean-forward="true" selection-start-line="632" selection-start-column="33" selection-end-line="632" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134672">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1509204097010" expanded="true" signature="17236:17340" ph="SELECT meta_... wp_postmeta" />
-            <marker date="1509204097010" expanded="true" signature="18399:18503" ph="SELECT post_... wp_postmeta" />
-            <marker date="1509204097010" expanded="true" signature="38380:38449" ph="SELECT optio... wp_options" />
-            <marker date="1509204097010" expanded="true" signature="147101:147197" ph="SELECT post_... wp_postmeta" />
-            <marker date="1509204097010" expanded="true" signature="147660:147762" ph="SELECT comme... wp_commentmeta" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/theme-framework/kernel/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1622">
@@ -271,8 +220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35726">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-8">
+          <caret line="1387" column="3" lean-forward="true" selection-start-line="1387" selection-start-column="3" selection-end-line="1387" selection-end-column="3" />
           <folding>
             <marker date="1509204059046" expanded="true" signature="16284:16336" ph="DELETE FROM " />
             <marker date="1509204059046" expanded="true" signature="16692:16761" ph="SELECT lat, wp_cp_ad_geocodes" />
@@ -281,34 +230,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/header.php">
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/framework/kernel/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/includes/views.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="682" column="90" lean-forward="true" selection-start-line="682" selection-start-column="90" selection-end-line="682" selection-end-column="90" />
-          <folding />
+        <state relative-caret-position="460">
+          <caret line="580" column="26" lean-forward="false" selection-start-line="580" selection-start-column="26" selection-end-line="580" selection-end-column="26" />
+          <folding>
+            <marker date="1509206015519" expanded="true" signature="22434:22607" ph="SELECT t.nam... wp_terms" />
+            <marker date="1509206015519" expanded="true" signature="23140:23346" ph="SELECT t.nam... wp_terms" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/includes/categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6872">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="-1733">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/wp-includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3676">
+          <caret line="3478" column="9" lean-forward="false" selection-start-line="3478" selection-start-column="9" selection-end-line="3478" selection-end-column="9" />
+          <folding>
+            <marker date="1509204097010" expanded="true" signature="17236:17340" ph="SELECT meta_... wp_postmeta" />
+            <marker date="1509204097010" expanded="true" signature="18399:18503" ph="SELECT post_... wp_postmeta" />
+            <marker date="1509204097010" expanded="true" signature="38380:38449" ph="SELECT optio... wp_options" />
+            <marker date="1509204097010" expanded="true" signature="147101:147197" ph="SELECT post_... wp_postmeta" />
+            <marker date="1509204097010" expanded="true" signature="147660:147762" ph="SELECT comme... wp_commentmeta" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/includes/views.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3100">
+          <caret line="682" column="116" lean-forward="true" selection-start-line="682" selection-start-column="80" selection-end-line="682" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="5899" column="24" lean-forward="false" selection-start-line="5899" selection-start-column="24" selection-end-line="5899" selection-end-column="24" />
+        <state relative-caret-position="486">
+          <caret line="5697" column="24" lean-forward="false" selection-start-line="5697" selection-start-column="24" selection-end-line="5697" selection-end-column="24" />
           <folding />
         </state>
       </provider>

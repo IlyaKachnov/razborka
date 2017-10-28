@@ -539,7 +539,7 @@ a.btn_orange:hover {
 
 .header_main_res {
 	margin: 0 auto;
-	width: 960px;
+	width: 1100px;
 }
 
 .header_main_res #logo {
@@ -553,7 +553,7 @@ a.btn_orange:hover {
 
 .header_menu_res {
 	margin: 0 auto;
-	width: 960px;
+	width: 1100px;
 	padding: 7px 0;
 }
 
@@ -939,20 +939,20 @@ p.edit a.reset-stats-link:before {
 	margin: 0;
 	padding: 0;
 	float: left;
-	width: 590px;
+	width: 660px;
 }
 
 .content_right {
 	margin: 0;
 	padding: 0;
 	float: right;
-	width: 340px;
+	width: 410px;
 }
 
 .content_res {
 	margin: 0 auto;
 	padding: 20px 0 30px;
-	width: 960px;
+	width: 1100px;
 }
 
 .content_res .priceblockbig p.descr {
@@ -1133,7 +1133,7 @@ p.edit a.reset-stats-link:before {
 }
 
 .content_res img.attachment-ad-medium {
-	max-width: 85px;
+	max-width: 120px;
 	height: auto;
 }
 
@@ -1506,7 +1506,7 @@ div#adv_categories .first {
 	margin: 0 auto;
 	position: relative;
 	top: 0;
-	width: 960px;
+	width: 1100px;
 }
 
 .searchblock_out {
@@ -1966,8 +1966,8 @@ span.feat_left img.preview {
 
 .post-block .post-right {
 	float: right;
-	max-width: 460px;
-	min-width: 380px;
+	max-width: 495px;
+	min-width: 415px;
 }
 
 .post-block .post-right-no-img {
@@ -2794,7 +2794,7 @@ p.lostpass {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	min-width: 960px;
+	min-width: 1100px;
 	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
 	color: #4F4F4F;
 }
@@ -4835,7 +4835,7 @@ p.alt-text {
 
 .footer_main_res {
 	margin: 0 auto;
-	width: 960px;
+	width: 1100px;
 }
 
 .footer_main_res p {
@@ -4848,7 +4848,7 @@ p.alt-text {
 
 .footer_menu_res {
 	margin: 0 auto;
-	width: 960px;
+	width: 1100px;
 }
 
 .footer_menu_res p {
@@ -5693,6 +5693,9 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	.header_main_res .adblock {
 		float: none;
 		width: 100%;
+	}
+	.content_res img.attachment-ad-medium {
+		max-width: 85px;
 	}
 	.header_main_res .adblock {
 		margin: 10px auto 0;
