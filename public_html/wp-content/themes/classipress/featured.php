@@ -27,12 +27,15 @@ global $cp_options;
                 number = 1;
             }
 			$('div.slider').jCarouselLite({
-				autoWidth: true,
+
+                autoWidth: true,
 				responsive: true,
 				pause: true,
 				auto: true,
                 visible :number,
-				timeout: 2800,
+                btnNext: '.next',
+                btnPrev: '.prev',
+                timeout: 2800,
 				speed: 1000,
 				init: function() {
 					$('div.slider').fadeIn();
