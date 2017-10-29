@@ -15,15 +15,25 @@ global $cp_options;
 	<script>
 		/* featured listings slider */
 		jQuery(document).ready(function($) {
+		    var number = 4;
+		    var windowWidth = $(window).width();
+            if (windowWidth < 1000 && windowWidth >= 700) {
+                number = 3;
+            }
+		    if (windowWidth < 700 && windowWidth >= 450) {
+		        number = 2;
+            }
+            if (windowWidth < 450) {
+                number = 1;
+            }
 			$('div.slider').jCarouselLite({
-				btnNext: '.next',
-				btnPrev: '.prev',
 				autoWidth: true,
 				responsive: true,
 				pause: true,
 				auto: true,
+                visible :number,
 				timeout: 2800,
-				speed: 800,
+				speed: 1000,
 				init: function() {
 					$('div.slider').fadeIn();
 				},

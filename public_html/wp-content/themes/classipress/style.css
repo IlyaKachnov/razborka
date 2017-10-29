@@ -5358,6 +5358,12 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 		max-width: 100%;
 		height: auto;
 	}
+	.sliderblock .prev {
+		display: none !important;
+	}
+	.sliderblock .next {
+		display: none !important;
+	}
 	.wp-caption,
 	.gallery-caption {
 		max-width: 100%;
