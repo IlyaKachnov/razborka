@@ -5423,9 +5423,13 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	/* header */
 
 	#logo {
-		width: 100%;
+		/*width: 100%;*/
 		float:none;
 		/* 300px / 960px */
+	}
+	.header_menu_res .obtn  {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
 	}
 	.adblock {
 		width: 49.787234%;
