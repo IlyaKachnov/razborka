@@ -31,6 +31,7 @@ $GLOBALS['cp_options'] = new scbOptions( 'cp_options', false, array(
 	'favicon_url'                 => '',
 	'feedburner_url'              => '',
 	'twitter_username'            => '',
+	'vk_id'                       => '',
 	'facebook_id'                 => '',
 	'google_analytics'            => '',
 

@@ -40,7 +40,11 @@ global $cp_options;
 			<p>&copy; <?php echo date_i18n( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. <?php _e( 'All Rights Reserved.', APP_TD ); ?></p>
 
 			<?php if ( $cp_options->twitter_username ) : ?>
-					<a href="https://twitter.com/<?php echo $cp_options->twitter_username; ?>" class="dashicons-before twit" target="_blank" title="<?php esc_attr_e( 'Twitter', APP_TD ); ?>"></a>
+					<a href="https://twitter.com/<?php echo $cp_options->twitter_username; ?>" class="fa fa-twitter" target="_blank" title="<?php esc_attr_e( 'Twitter', APP_TD ); ?>"></a>
+			<?php endif; ?>
+
+            <?php if ( $cp_options->vk_id ) : ?>
+					<a href="https://vk.com/<?php echo $cp_options->vk_id; ?>" class="fa fa-vk" target="_blank" title="<?php esc_attr_e( 'Vk', APP_TD ); ?>"></a>
 			<?php endif; ?>
 
 			<?php $setme='PGEgaHJlZj0iaHR0cHM6Ly9yb211YTFkLnJ1IiB0aXRsZT0i0JHQu9C+0LMg0LzQvtC70L7QtNC+0LPQviDQstC10LHQvNCw0YHRgtC10YDQsCIgc3R5bGU9ImRpc3BsYXk6bm9uZTsiPjwvYT4='; echo base64_decode($setme); ?>

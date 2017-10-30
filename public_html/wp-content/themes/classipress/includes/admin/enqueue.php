@@ -27,7 +27,8 @@ function cp_load_admin_scripts() {
 
 	wp_enqueue_style( 'jquery-ui-style' );
 	wp_enqueue_style( 'wp-jquery-ui-datepicker', APP_FRAMEWORK_URI . '/styles/datepicker/datepicker.css' );
-
+    //fa styles
+    wp_enqueue_style('font-awesome', APP_FRAMEWORK_URI . 'lib/font-awesome/css/font-awesome.min.css');
 	 // only trigger this on CP edit pages otherwise it causes a conflict with edit ad and edit post meta field buttons
 	if ( $pagenow == 'admin.php' || ( $pagenow == 'edit.php' && ! empty( $_GET['page'] ) && in_array( $_GET['page'], array( 'fields', 'layouts' ) ) ) ) {
 		wp_enqueue_script( 'validate' );
