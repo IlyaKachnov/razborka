@@ -46,6 +46,9 @@ global $cp_options;
             <?php if ( $cp_options->vk_id ) : ?>
 					<a href="https://vk.com/<?php echo $cp_options->vk_id; ?>" class="fa fa-2x fa-vk" target="_blank" title="<?php esc_attr_e( 'Vk', APP_TD ); ?>"></a>
 			<?php endif; ?>
+            <?php if ( $cp_options->instagram_id ) : ?>
+					<a href="https://instagram.com/<?php echo $cp_options->instagram_id; ?>" class="fa fa-2x fa-instagram" target="_blank" title="<?php esc_attr_e( 'Instagram', APP_TD ); ?>"></a>
+			<?php endif; ?>
 
 			<?php cp_website_current_time(); ?>
 
