@@ -4835,7 +4835,7 @@ p.alt-text {
 
 .footer_main_res {
 	margin: 0 auto;
-	width: 1100px !important;
+	width: 1100px;
 }
 
 .footer_main_res p {
@@ -4919,7 +4919,7 @@ p.alt-text {
 	text-decoration: underline;
 }
 
-.footer_main_res a.twit {
+.footer_main_res a.twit, a.fa {
 	display: block;
 	float: right;
 	height: 50px;
@@ -4928,7 +4928,9 @@ p.alt-text {
 	margin-top: 15px;
 	text-decoration: none;
 }
-
+a.fa {
+	color:#FFF !important;
+}
 .footer_main_res a.twit:before {
 	content: '\f301';
 	font-size: 40px;

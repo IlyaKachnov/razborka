@@ -229,7 +229,7 @@ function cp_load_styles() {
 	}
 
 	wp_enqueue_style( 'jquery-ui-style' );
-//    wp_enqueue_style('font-awesome');
+    wp_enqueue_style('font-awesome');
 
 }
 endif;
