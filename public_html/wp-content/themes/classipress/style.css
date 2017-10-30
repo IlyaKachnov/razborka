@@ -4929,6 +4929,8 @@ p.alt-text {
 	text-decoration: none;
 }
 a.fa {
+	height: auto;
+	width: auto;
 	color:#FFF !important;
 }
 .footer_main_res a.twit:before {
