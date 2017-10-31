@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0de77c-76af-4ea5-ae21-f407c6529f01" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="4900" column="32" lean-forward="true" selection-start-line="4900" selection-start-column="32" selection-end-line="4900" selection-end-column="32" />
+            <state relative-caret-position="360">
+              <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -56,7 +57,7 @@
       <find>a.fa</find>
       <find>preview</find>
       <find>.preview</find>
-      <find>.footer_main_res</find>
+      <find>.form_contact</find>
     </findStrings>
     <replaceStrings>
       <replace>4px</replace>
@@ -114,7 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +138,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,12 +170,13 @@
       <updated>1509204518049</updated>
       <workItem from="1509204524874" duration="11475000" />
       <workItem from="1509300045516" duration="4147000" />
-      <workItem from="1509379286443" duration="12371000" />
+      <workItem from="1509379286443" duration="12543000" />
+      <workItem from="1509476284380" duration="1414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27993000" />
+    <option name="totallyTimeSpent" value="29579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -213,11 +215,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -233,22 +242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81552">
           <caret line="3398" column="36" lean-forward="false" selection-start-line="3398" selection-start-column="33" selection-end-line="3398" selection-end-column="36" />
-          <folding>
-            <marker date="1509204096807" expanded="true" signature="29372:29385" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="56013:56195" ph="SELECT YEAR(... " />
-            <marker date="1509204096807" expanded="true" signature="57087:57222" ph="SELECT YEAR(... " />
-            <marker date="1509204096807" expanded="true" signature="57987:58231" ph="SELECT YEAR(... " />
-            <marker date="1509204096807" expanded="true" signature="59202:59440" ph="SELECT DISTI... " />
-            <marker date="1509204096807" expanded="true" signature="60844:60902" ph="SELECT * FRO... wp_posts" />
-            <marker date="1509204096807" expanded="true" signature="63207:63302" ph="SELECT 1 as wp_posts" />
-            <marker date="1509204096807" expanded="true" signature="64540:64754" ph="SELECT MONTH... " />
-            <marker date="1509204096807" expanded="true" signature="64783:65014" ph="SELECT MONTH... " />
-            <marker date="1509204096807" expanded="true" signature="65190:65331" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="65325:65331" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="65776:65782" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="66585:66591" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="66684:66919" ph="SELECT DISTI... wp_posts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -256,7 +249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11952">
           <caret line="498" column="9" lean-forward="false" selection-start-line="498" selection-start-column="9" selection-end-line="498" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -264,7 +256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -272,7 +263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -302,7 +292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,10 +299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="580" column="26" lean-forward="false" selection-start-line="580" selection-start-column="26" selection-end-line="580" selection-end-column="26" />
-          <folding>
-            <marker date="1509206015519" expanded="true" signature="22434:22607" ph="SELECT t.nam... wp_terms" />
-            <marker date="1509206015519" expanded="true" signature="23140:23346" ph="SELECT t.nam... wp_terms" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -328,13 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3676">
           <caret line="3478" column="9" lean-forward="false" selection-start-line="3478" selection-start-column="9" selection-end-line="3478" selection-end-column="9" />
-          <folding>
-            <marker date="1509204097010" expanded="true" signature="17236:17340" ph="SELECT meta_... wp_postmeta" />
-            <marker date="1509204097010" expanded="true" signature="18399:18503" ph="SELECT post_... wp_postmeta" />
-            <marker date="1509204097010" expanded="true" signature="38380:38449" ph="SELECT optio... wp_options" />
-            <marker date="1509204097010" expanded="true" signature="147101:147197" ph="SELECT post_... wp_postmeta" />
-            <marker date="1509204097010" expanded="true" signature="147660:147762" ph="SELECT comme... wp_commentmeta" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,7 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3100">
           <caret line="682" column="116" lean-forward="true" selection-start-line="682" selection-start-column="80" selection-end-line="682" selection-end-column="116" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -350,7 +327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -358,7 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="498" column="9" lean-forward="false" selection-start-line="498" selection-start-column="9" selection-end-line="498" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -366,22 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="3398" column="36" lean-forward="false" selection-start-line="3398" selection-start-column="33" selection-end-line="3398" selection-end-column="36" />
-          <folding>
-            <marker date="1509204096807" expanded="true" signature="29372:29385" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="56013:56195" ph="SELECT YEAR(... " />
-            <marker date="1509204096807" expanded="true" signature="57087:57222" ph="SELECT YEAR(... " />
-            <marker date="1509204096807" expanded="true" signature="57987:58231" ph="SELECT YEAR(... " />
-            <marker date="1509204096807" expanded="true" signature="59202:59440" ph="SELECT DISTI... " />
-            <marker date="1509204096807" expanded="true" signature="60844:60902" ph="SELECT * FRO... wp_posts" />
-            <marker date="1509204096807" expanded="true" signature="63207:63302" ph="SELECT 1 as wp_posts" />
-            <marker date="1509204096807" expanded="true" signature="64540:64754" ph="SELECT MONTH... " />
-            <marker date="1509204096807" expanded="true" signature="64783:65014" ph="SELECT MONTH... " />
-            <marker date="1509204096807" expanded="true" signature="65190:65331" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="65325:65331" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="65776:65782" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="66585:66591" ph="..." />
-            <marker date="1509204096807" expanded="true" signature="66684:66919" ph="SELECT DISTI... wp_posts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,7 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="0" column="3215" lean-forward="false" selection-start-line="0" selection-start-column="3214" selection-end-line="0" selection-end-column="3215" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -397,7 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="988" column="54" lean-forward="false" selection-start-line="988" selection-start-column="54" selection-end-line="988" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -405,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-368">
           <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -421,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4968">
           <caret line="3" column="24231" lean-forward="true" selection-start-line="3" selection-start-column="24231" selection-end-line="3" selection-end-column="24231" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15024">
           <caret line="626" column="11" lean-forward="false" selection-start-line="626" selection-start-column="4" selection-end-line="626" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="4830" column="14" lean-forward="true" selection-start-line="4830" selection-start-column="14" selection-end-line="4830" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -445,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="491" column="44" lean-forward="false" selection-start-line="491" selection-start-column="44" selection-end-line="491" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,10 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <marker date="1509383215398" expanded="true" signature="1895:1923" ph="..." />
-            <marker date="1509383215398" expanded="true" signature="5968:6128" ph="SELECT COUNT... wp_posts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,19 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
           <caret line="3437" column="72" lean-forward="true" selection-start-line="3437" selection-start-column="72" selection-end-line="3437" selection-end-column="72" />
-          <folding>
-            <marker date="1509204096353" expanded="true" signature="64535:64893" ph="..." />
-            <marker date="1509204096353" expanded="true" signature="64553:64577" ph="{...}" />
-            <marker date="1509204096353" expanded="true" signature="64608:64707" ph="{...}" />
-            <marker date="1509204096353" expanded="true" signature="64728:64765" ph="{...}" />
-            <marker date="1509204096353" expanded="true" signature="64799:64825" ph="{...}" />
-            <marker date="1509204096353" expanded="true" signature="66718:66729" ph="..." />
-            <marker date="1509204096353" expanded="true" signature="66831:66842" ph="..." />
-            <marker date="1509204096353" expanded="true" signature="117717:117828" ph="SELECT ID FR... wp_posts" />
-            <marker date="1509204096353" expanded="true" signature="118756:118867" ph="SELECT ID FR... wp_posts" />
-            <marker date="1509204096353" expanded="true" signature="119642:119784" ph="SELECT DISTI... " />
-            <marker date="1509204096353" expanded="true" signature="137186:137278" ph="SELECT post_... wp_postmeta" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="195" column="39" lean-forward="true" selection-start-line="195" selection-start-column="39" selection-end-line="195" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="231" column="2" lean-forward="false" selection-start-line="231" selection-start-column="2" selection-end-line="231" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-101">
           <caret line="91" column="145" lean-forward="false" selection-start-line="91" selection-start-column="145" selection-end-line="91" selection-end-column="145" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,14 +467,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="0" column="290" lean-forward="false" selection-start-line="0" selection-start-column="283" selection-end-line="0" selection-end-column="290" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="4900" column="32" lean-forward="true" selection-start-line="4900" selection-start-column="32" selection-end-line="4900" selection-end-column="32" />
+        <state relative-caret-position="360">
+          <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -171,7 +171,9 @@ h4,
 h5 {
 	padding: 10px 0;
 }
-
+select, input, button {
+	outline: none !important;
+}
 a,
 .dashicons-before:hover {
 	text-decoration: none;
@@ -4159,7 +4161,9 @@ ul.side-comments li .comment a:hover {
 	padding: 0;
 	font-weight: bold;
 }
-
+#mainform label {
+	margin:0 50px 0 0;
+}
 .form_contact input.text {
 	padding: 7px;
 	float: left;
@@ -5574,6 +5578,9 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	.form_contact label {
 		display: block;
 		float: none;
+	}
+	#mainform label {
+		margin:0;
 	}
 	/* comment styles */
 
