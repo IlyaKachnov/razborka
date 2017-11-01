@@ -4937,6 +4937,7 @@ a.fa {
 	width: auto;
 	color:#FFF !important;
 }
+
 .footer_main_res a.twit:before {
 	content: '\f301';
 	font-size: 40px;
@@ -5704,6 +5705,10 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 
 	.content_res .license {
 		width: auto;
+	}
+	.social {
+		display: table;
+		margin: 0 auto;
 	}
 }
 

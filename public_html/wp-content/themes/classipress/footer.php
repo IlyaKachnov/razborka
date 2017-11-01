@@ -38,7 +38,7 @@ global $cp_options;
 
 
 			<p>&copy; <?php echo date_i18n( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. <?php _e( 'All Rights Reserved.', APP_TD ); ?></p>
-
+            <div class="social">
 			<?php if ( $cp_options->twitter_username ) : ?>
 					<a href="https://twitter.com/<?php echo $cp_options->twitter_username; ?>" class="fa fa-2x fa-twitter" target="_blank" title="<?php esc_attr_e( 'Twitter', APP_TD ); ?>"></a>
 			<?php endif; ?>
@@ -49,7 +49,7 @@ global $cp_options;
             <?php if ( $cp_options->instagram_id ) : ?>
 					<a href="https://instagram.com/<?php echo $cp_options->instagram_id; ?>" class="fa fa-2x fa-instagram" target="_blank" title="<?php esc_attr_e( 'Instagram', APP_TD ); ?>"></a>
 			<?php endif; ?>
-
+            </div>
 			<?php cp_website_current_time(); ?>
 
 			<div class="clr"></div>
