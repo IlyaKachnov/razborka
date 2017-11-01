@@ -225,13 +225,21 @@
       <workItem from="1509300045516" duration="4147000" />
       <workItem from="1509379286443" duration="12543000" />
       <workItem from="1509476284380" duration="2036000" />
+<<<<<<< Updated upstream
       <workItem from="1509553973967" duration="4432000" />
       <workItem from="1509566466634" duration="433000" />
+=======
+      <workItem from="1509553973967" duration="5620000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="35066000" />
+=======
+    <option name="totallyTimeSpent" value="35821000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="7" />
@@ -610,6 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/classipress/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="4569">
           <caret line="5720" column="19" lean-forward="false" selection-start-line="5720" selection-start-column="19" selection-end-line="5720" selection-end-column="19" />
           <folding />
@@ -620,6 +629,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+=======
+        <state relative-caret-position="522">
+          <caret line="5732" column="25" lean-forward="true" selection-start-line="5732" selection-start-column="25" selection-end-line="5732" selection-end-column="25" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
