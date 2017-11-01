@@ -26,7 +26,6 @@
 
 					<div class="shadowblock">
 
-						<div id="catrss" class="catrss"><a class="dashicons-before catrss" href="<?php echo esc_url( get_term_feed_link( $term->term_id, $taxonomy ) ); ?>" title="<?php echo esc_url( sprintf( __( '%s RSS Feed', APP_TD ), $term->name ) ); ?>"></a></div>
 						<h1 class="single dotted"><?php _e( 'Listings tagged with', APP_TD ); ?> '<?php echo $term->name; ?>' (<?php echo $wp_query->found_posts; ?>)</h1>
 
 					</div><!-- /shadowblock -->
