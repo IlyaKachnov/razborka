@@ -15,7 +15,7 @@ global $cp_options;
 	<div class="header_menu">
 
 		<div class="header_menu_res">
-            <div id="logo" style="float: left;margin-right: 10px;">
+            <div id="logo">
 
                 <?php if ( get_header_image() ) { ?>
                     <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
