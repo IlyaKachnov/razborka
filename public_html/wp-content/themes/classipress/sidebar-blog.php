@@ -18,7 +18,6 @@ global $current_user;
 
 		<ul class="tabnavig">
 			<li><a href="#priceblock1"><?php _e( 'Popular', APP_TD ); ?></a></li>
-			<li><a href="#priceblock2"><?php _e( 'Comments', APP_TD ); ?></a></li>
 			<li><a href="#priceblock3"><?php _e( 'Tags', APP_TD ); ?></a></li>
 		</ul>
 
@@ -33,14 +32,6 @@ global $current_user;
 		</div>
 
 
-		<!-- comments tab 2 -->
-		<div id="priceblock2">
-
-			<div class="clr"></div>
-
-			<?php get_template_part( 'includes/sidebar', 'comments' ); ?>
-
-		</div><!-- /priceblock2 -->
 
 
 		<!-- tag cloud tab 3 -->
