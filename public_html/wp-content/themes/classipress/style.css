@@ -5932,9 +5932,6 @@ ol.progtrckr[data-progtrckr-steps='5'] li {
 	.text {
 		width: 240px;
 	}
-	.header_menu_res .obtn {
-		padding: 8px 4px;
-	}
 	#directory .catcol ul li.cat-item ul,
 	.paging .pages span.total,
 	.slider_top,
