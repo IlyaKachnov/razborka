@@ -45,8 +45,11 @@ global $cp_options;
 	</div><!-- /header_menu -->
 
 </div><!-- /header -->
+<?php
+if ( is_page_template( 'tpl-ads-home.php' ) ) :?>
 <div class="info-block"><!-- begins info -->
         <div class="info">
         <p>ВНИМАНИЕ!!! На сайте можно бесплатно поднять объявление с 03.11.17 до 10.11.17. Подробнее во вкладке ИНФОРМАЦИЯ!</p>
     </div>
 </div><!-- ends info -->
+<?php endif; ?>
