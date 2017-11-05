@@ -596,6 +596,7 @@ div#message{padding:5px 0 15px;width:550px;}
 div#login_error{color:#C00;padding:5px 0;}
 p.rememberme{margin-left:-3px;padding-bottom:10px;}
 p.rememberme label{float:none;margin-left:5px;text-align:left;font-weight:normal;}
+.policy {font-size: 14px; font-weight: 600;}
 p.submit{padding:10px 0 10px;}
 input#rememberme{float:left;}
 p.lostpass{margin-bottom:-5px;}

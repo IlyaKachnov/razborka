@@ -37,6 +37,7 @@ $show_password_fields = apply_filters( 'show_password_fields_on_registration', t
 					<?php do_action( 'appthemes_notices' ); ?>
 
 					<p><?php _e( 'Complete the fields below to create your free account. Your login details will be emailed to you for confirmation so make sure to use a valid email address. Once registration is complete, you will be able to submit your ads.', APP_TD ); ?></p>
+                       <p class="policy">Внимание: регистрируясь на сайте, вы подтверждаете свое согласие с <a href="/polit-conf/" target="_blank" style="color: blue;">пользовательским соглашением</a></p>
 
 					<div class="left-box registration">
 
@@ -94,13 +95,9 @@ $show_password_fields = apply_filters( 'show_password_fields_on_registration', t
 										<div id="pass-strength-result" class="hide-if-no-js"><?php _e( 'Strength indicator', APP_TD ); ?></div>
 										<span class="description indicator-hint"><?php _e( 'Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! " ? $ % ^ &amp; ).', APP_TD ); ?></span>
 									</div>
-
 								<?php endif; ?>
-
 								<?php do_action( 'register_form' ); ?>
-
 								<div id="checksave">
-
 									<p class="submit">
 										<input tabindex="6" class="btn_orange" type="submit" name="register" id="register" value="<?php _e( 'Create Account', APP_TD ); ?>" />
 									</p>
