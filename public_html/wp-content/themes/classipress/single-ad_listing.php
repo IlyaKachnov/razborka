@@ -117,6 +117,7 @@
 								</div>
 
 								<?php appthemes_after_post_content(); ?>
+                                <?php wpfp_link(); ?>
 
 							</div><!-- /shadowblock -->
 
