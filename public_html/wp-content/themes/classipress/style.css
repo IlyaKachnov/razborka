@@ -1372,3 +1372,5 @@ p{word-wrap:break-word;}
 .post-block .post-right{max-width:84%;}
 .content_res div.bigright{width:60%;}
 }
+.featured .post-block {background: #FFFF00;}
+.post-block-out.featured {border: 1px solid #E6DB55;}
