@@ -45,6 +45,7 @@ global $cp_options;
 	</div><!-- /header_menu -->
 
 </div><!-- /header -->
+<!--<div class="info-block"><div class="info"><p>--><?php //echo do_shortcode('[wt_geotargeting get="city"]'); ?><!--</p></div></div>-->
 <?php
 if ( is_page_template( 'tpl-ads-home.php' ) ) :?>
 <div class="info-block"><!-- begins info -->
