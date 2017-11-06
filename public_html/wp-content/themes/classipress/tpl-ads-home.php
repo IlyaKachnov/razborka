@@ -23,13 +23,19 @@
 
 				<?php if ( $cp_options->home_layout == 'directory' ) { ?>
 
-					<div class="shadowblock_out">
+                    <div class="shadowblock_out" id="rb_homedirectory_out">
 
-						<div class="shadowblock">
+                        <div class="shadowblock" id="rb_homedirectory">
 
-							<h2 class="dotted"><?php _e( 'Ad Categories', APP_TD ); ?></h2>
+                            <div class="title">
 
-							<div id="directory" class="directory <?php cp_display_style( 'dir_cols' ); ?>">
+                                <h2 class="dotted"><?php _e( 'Ad Categories', APP_TD ); ?></h2>
+
+                                <div class="desplegable"></div>
+
+                            </div><!--/title-->
+
+                            <div id="directory" class="directory <?php cp_display_style( 'dir_cols' ); ?>" style="display: none;">
 
 								<?php echo cp_create_categories_list( 'dir' ); ?>
 
@@ -93,7 +99,19 @@
 
 			</div><!-- /content_left -->
 
-
+            <script type="text/javascript">
+                jQuery(document).ready(function($) {
+                    $(".shadowblock .title .desplegable").click(function(){
+                        var sVisible = "" + $(".shadowblock #directory").css("display");
+                        if (sVisible == "none") {
+                            $(".shadowblock #directory").css("display","");
+                        }
+                        else {
+                            $(".shadowblock #directory").css("display","none");
+                        }
+                    });
+                });
+            </script>
 			<?php get_sidebar(); ?>
 
 
