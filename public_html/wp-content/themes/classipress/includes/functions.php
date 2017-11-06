@@ -1522,3 +1522,18 @@ function cp_get_enqueue_suffix() {
 //setup function to stop function from failing if sm debug bar is not installed
 //this allows for optional use of sm debug bar plugin
 if ( ! function_exists( 'dbug' ) ) { function dbug( $args ) {} }
+function allow_cyrillic_usernames($username, $raw_username, $strict) {
+    $username = wp_strip_all_tags( $raw_username );
+    $username = remove_accents( $username );
+    $username = preg_replace( '|%([a-fA-F0-9][a-fA-F0-9])|', '', $username );
+    $username = preg_replace( '/&.+?;/', '', $username );
+
+    if ( $strict )
+        $username = preg_replace( '|[^a-zа-я0-9 _.\-@]|iu', '', $username );
+
+    $username = trim( $username );
+    $username = preg_replace( '|\s+|', ' ', $username );
+
+    return $username;
+}
+add_filter('sanitize_user', 'allow_cyrillic_usernames', 10, 3);
