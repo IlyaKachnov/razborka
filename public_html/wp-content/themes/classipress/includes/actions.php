@@ -153,18 +153,15 @@ function cp_ad_loop_price() {
  * @return void
  */
 function cp_ad_loop_meta() {
-	global $post, $cp_options;
-
-	if ( is_singular( APP_POST_TYPE ) ) {
-		return;
-	}
-?>
-	<p class="post-meta">
-		<span class="dashicons-before folder"><?php if ( $post->post_type == 'post' ) the_category( ', ' ); else echo get_the_term_list( $post->ID, APP_TAX_CAT, '', ', ', '' ); ?></span> <span class="dashicons-before owner"><?php if ( $cp_options->ad_gravatar_thumb ) appthemes_get_profile_pic( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_email' ), 32 ); ?><?php the_author_posts_link(); ?></span> <span class="dashicons-before clock"><span><?php echo appthemes_date_posted( $post->post_date ); ?></span></span>
-	</p>
-<?php
+    global $post, $cp_options;
+    if ( is_singular( APP_POST_TYPE ) )
+        return;
+    ?>
+    <p class="post-meta">
+        <span class="folder"><?php if ( $post->post_type == 'post' ) the_category(', '); else echo get_the_term_list( $post->ID, APP_TAX_CAT, '', ', ', '' ); ?></span> | <span class="owner"><img src="<?php bloginfo('template_url'); ?>/images/cp_gravatar.png" alt="" class="avatar" width="16" height="16" /><?php the_author_posts_link(); ?></span> | <span class="clock"><span><?php echo appthemes_date_posted($post->post_date); ?></span></span>
+    </p>
+    <?php
 }
-
 
 
 /**
