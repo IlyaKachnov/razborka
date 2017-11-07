@@ -147,11 +147,8 @@ if ( ! function_exists( 'cp_get_price' ) ) {
 		global $cp_options;
 
 		if ( get_post_meta( $post_id, $meta_field, true ) ) {
-
 			$price_out = get_post_meta( $post_id, $meta_field, true );
-			$price_out = cp_price_format( $price_out );
-			$price_out = cp_pos_currency( $price_out, 'ad' );
-
+			$price_out = cp_is_number($price_out);
 		} else {
 			if ( $cp_options->force_zeroprice ) {
 				$price_out = cp_pos_currency( 0, 'ad' );
@@ -164,7 +161,19 @@ if ( ! function_exists( 'cp_get_price' ) ) {
 	}
 }
 
-
+/**
+ * Check if the price is number
+ *
+ */
+function cp_is_number ($price_out)
+{
+    if (preg_match("/[0-9-]/", $price_out)) {
+        $price_out = cp_price_format( $price_out );
+        $price_out = cp_pos_currency( $price_out, 'ad' );
+        return $price_out;
+    }
+    return $price_out;
+}
 /**
  * Position the currency symbol and return it with the price.
  *
