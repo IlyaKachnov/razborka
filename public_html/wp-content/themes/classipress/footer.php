@@ -59,22 +59,4 @@ global $cp_options;
 	</div><!-- /footer_main -->
 
 </div><!-- /footer -->
-<script type="text/javascript">
-    jQuery(document).ready(function($) {
-        $(".maincat i").click(function () {
-            var isVisible = $(this).attr("class");
-            var subList = $(this).parent().find(".subcat-list");
-            if (isVisible == "fa fa-angle-down") {
-                subList.css("display", "block");
-                $(this).removeClass("fa-angle-down");
-                $(this).addClass("fa-angle-up");
-            }
-            else {
-                subList.css("display", "none");
-                $(this).removeClass("fa-angle-up");
-                $(this).addClass("fa-angle-down");
-            }
-        });
-        $("#sorry-block").delay(5500).hide();
-    });
-</script>
+
