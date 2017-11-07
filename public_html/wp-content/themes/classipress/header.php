@@ -48,6 +48,11 @@ global $cp_options;
 <!--<div class="info-block"><div class="info"><p>--><?php //echo do_shortcode('[wt_geotargeting get="city"]'); ?><!--</p></div></div>-->
 <?php
 if ( is_page_template( 'tpl-ads-home.php' ) ) :?>
+    <div id="sorry-block" class="info-block"><!-- begins info -->
+        <div class="info">
+            <p>Сайт находится в разработке, приносим извинения за доставленные неудобства.</p>
+        </div>
+    </div><!-- ends info -->
 <div class="info-block"><!-- begins info -->
         <div class="info">
         <p>ВНИМАНИЕ!!! На сайте можно бесплатно поднять объявление с 03.11.17 до 10.11.17. Подробнее во вкладке ИНФОРМАЦИЯ!</p>

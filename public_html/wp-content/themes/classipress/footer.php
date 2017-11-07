@@ -75,5 +75,6 @@ global $cp_options;
                 $(this).addClass("fa-angle-down");
             }
         });
+        $("#sorry-block").delay(5500).hide();
     });
 </script>
