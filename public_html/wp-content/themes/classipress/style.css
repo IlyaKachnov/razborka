@@ -205,6 +205,9 @@ p.edit a.reset-stats-link:before{display:inline-block;width:20px;height:20px;fon
 #adv_categories .cat-item:before,
 .footer_main_res .column:not(.widget-125-ads) ul li:before,
 .maincat-list .subcat-list li:before{content:'\f345';font-size:12px;vertical-align:text-top;width:12px;padding-right:3px;}
+.maincat-list .subcat-list {display: none;}
+.maincat i {cursor:pointer;}
+.cat-item-210 i {display: none;}
 .content_right ul li ul li{border-bottom:none;padding-bottom:0;}
 #refine_widget ul.refine li{background:none;border-bottom:1px solid #EFEFEF;padding:7px 5px 7px 15px;}
 #refine_widget ul.refine li div.handle{float:right;height:18px;width:18px;line-height:18px;}
