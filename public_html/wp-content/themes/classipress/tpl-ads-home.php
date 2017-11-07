@@ -21,7 +21,7 @@
 			<div class="content_left">
 
 
-				<?php if ( $cp_options->home_layout == 'directory' ) { ?>
+<!--				--><?php //if ( $cp_options->home_layout == 'directory' ) { ?>
 
                     <div class="shadowblock_out" id="rb_homedirectory_out">
 
@@ -47,7 +47,7 @@
 
 					</div><!-- /shadowblock_out -->
 
-				<?php } ?>
+<!--				--><?php //} ?>
 
 
 				<div class="tabcontrol">

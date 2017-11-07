@@ -60,7 +60,7 @@ function cp_load_scripts() {
 
 	if ( $cp_options->enable_featured && is_page_template( 'tpl-ads-home.php' ) ) {
 		wp_enqueue_script( 'jqueryeasing', get_template_directory_uri() . "/includes/js/easing{$min}.js", array( 'jquery' ), '1.3' );
-		wp_enqueue_script( 'jcarousellite', get_template_directory_uri() . "/includes/js/jcarousellite{$min}.js", array( 'jquery', 'jquery-ui-slider' ), '1.9.2' );
+//		wp_enqueue_script( 'jcarousellite', get_template_directory_uri() . "/includes/js/jcarousellite{$min}.js", array( 'jquery', 'jquery-ui-slider' ), '1.9.2' );
 	}
 
 	// Load the theme script.

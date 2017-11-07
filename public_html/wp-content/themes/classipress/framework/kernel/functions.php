@@ -615,10 +615,10 @@ function appthemes_categories_list( $args, $terms_args = array() ) {
 		}
 
 		$first = '';
-
 		// only show the total count if option is set
 		$show_count = $options['cat_parent_count'] ? '<span class="cat-item-count">(' . $cat->count . ')</span>' : '';
-
+		//add dropdown btn
+        $show_count = $show_count . "<i class='fa fa-angle-down' style='margin-left: 5px;'></i>";
 		$cat_menu .= '<li class="maincat cat-item-' . $cat->term_id . '"><a href="' . get_term_link( $cat, $options['taxonomy'] ) . '" title="' . esc_attr( $cat->description ) . '">' . $cat->name . '</a> ' . $show_count . ' ';
 		if ( $options['menu_sub_num'] > 0 ) {
 			// create child tree

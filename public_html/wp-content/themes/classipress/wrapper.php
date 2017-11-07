@@ -45,6 +45,24 @@
 
 	<?php appthemes_after(); ?>
 <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".maincat i").click(function () {
+                var isVisible = $(this).attr("class");
+                var subList = $(this).parent().find(".subcat-list");
+                if (isVisible == "fa fa-angle-down") {
+                    subList.css("display", "block");
+                    $(this).removeClass("fa-angle-down");
+                    $(this).addClass("fa-angle-up");
+                }
+                else {
+                    subList.css("display", "none");
+                    $(this).removeClass("fa-angle-up");
+                    $(this).addClass("fa-angle-down");
+                }
+            });
+        });
+</script>
 <script type="text/javascript" >
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
