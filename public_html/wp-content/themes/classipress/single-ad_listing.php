@@ -71,7 +71,15 @@
 									<?php endif; ?>
 
 									</ul>
-
+                                    <div class="modalDialog">
+                                        <div class="modal-body">
+                                            <a href="#close" title="Закрыть" class="close">x</a>
+                                            <p>Телефон продавца</p>
+                                            <p id="number"><i class="fa fa-phone"></i></p>
+                                            <p>Пожалуйста, скажите продавцу, что вы звоните по объявлению с сайта Разборка СССР.</p>
+                                            <p style="font-weight: 600;">Внимание! Приобретая товар, никогда не отправляйте предоплату.</p>
+                                        </div>
+                                    </div>
 								</div><!-- /bigright -->
 
 

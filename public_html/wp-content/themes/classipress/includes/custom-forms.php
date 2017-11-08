@@ -673,6 +673,10 @@ if ( ! function_exists( 'cp_get_ad_details' ) ) {
 				$args = array( 'value' => $post_meta_val, 'label' => $field->field_label, 'id' => $field->field_name, 'class' => '' );
 				$args = apply_filters( 'cp_ad_details_' . $field->field_name, $args, $field, $post, $location );
 
+				if ($args["id"] == "cp_zipcode") {
+                    echo '<li id="' . $args['id'] . '" class="' . $args['class'] . '" data-number="' . appthemes_make_clickable( $args['value'] ) . '"><span>' . esc_html( translate( $args['label'], APP_TD ) ) . ':</span>&nbsp;<a id="show-number" href="#" class="btn_orange" style="color:white;">Показать номер</a></li>';
+                    continue;
+                }
 				if ( $args ) {
 					echo '<li id="' . $args['id'] . '" class="' . $args['class'] . '"><span>' . esc_html( translate( $args['label'], APP_TD ) ) . ':</span> ' . appthemes_make_clickable( $args['value'] ) . '</li>';
 				}

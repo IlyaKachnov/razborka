@@ -64,15 +64,27 @@
         });
     });
 </script>
-<?php //if (is_single()) : ?>
-<!--    <script type="text/javascript">-->
-<!--        jQuery(document).ready(function ($) {-->
-<!--            $("#cp_zipcode").click(function () {-->
-<!--                $(this).css("display", "none");-->
-<!--            })-->
-<!--        });-->
-<!--    </script>-->
-<?php //endif; ?>
+<?php if (is_single()) : ?>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var modalDialog = $(".modalDialog");
+            var modalBody = modalDialog.find(".modal-body");
+            var close = modalDialog.find(".close");
+            var numberText = $("#show-number").parent().attr("data-number");
+            var numberPlace =  modalBody.find("#number");
+                $("#show-number").click(function () {
+                    modalDialog.css({"display":"block", "opacity":"1","pointer-events": "auto"});
+                    numberPlace.append(numberText);
+                    $(this).replaceWith(numberText);
+                    return false;
+                });
+               close.click(function () {
+                    modalDialog.css({"display":"none","opacity":"0","pointer-events":"none"});
+                    return false;
+                });
+        });
+    </script>
+<?php endif; ?>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
